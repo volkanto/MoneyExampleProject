@@ -8,7 +8,7 @@ import com.tokmak.example.money.Money.CurrencyEnum;
  *
  * <b>created at</b> Apr 21, 2015 10:32:54 PM
  * @author Volkan Tokmak
- * @since 2.00.00.0
+ * @since 1.00.0
  */
 public class MoneyMain
 {
@@ -19,7 +19,7 @@ public class MoneyMain
 	 * @param args
 	 * 
 	 * <b>created at</b> Apr 21, 2015 10:32:52 PM
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 * @author Volkan Tokmak
 	 */
 	public static void main(String[] args)

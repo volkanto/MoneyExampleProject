@@ -6,7 +6,7 @@ package com.tokmak.example.money;
  *
  * <b>created at</b> Apr 21, 2015 10:14:31 PM
  * @author Volkan Tokmak
- * @since 2.00.00.0
+ * @since 1.00.0
  */
 public final class Money
 {
@@ -19,7 +19,7 @@ public final class Money
 	 *
 	 * <b>created at</b> Apr 21, 2015 10:14:29 PM
 	 * @author Volkan Tokmak
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 */
 	public enum CurrencyEnum {
 		USD,
@@ -31,7 +31,7 @@ public final class Money
 	 *
 	 *
 	 * <b>created at</b> Apr 21, 2015 10:14:27 PM
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 * @author Volkan Tokmak
 	 */
 	public Money() 
@@ -47,7 +47,7 @@ public final class Money
 	 * @param argCurrency
 	 *
 	 * <b>created at</b> Apr 21, 2015 10:16:00 PM
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 * @author Volkan Tokmak
 	 */
 	public Money(Double argAmount, CurrencyEnum argCurrency)
@@ -63,7 +63,7 @@ public final class Money
 	 * @return
 	 * 
 	 * <b>created at</b> Apr 21, 2015 10:16:13 PM
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 * @author Volkan Tokmak
 	 */
 	public Money multiplyBy(int argFactor)
@@ -78,7 +78,7 @@ public final class Money
 	 *
 	 * <b>created at</b> Apr 21, 2015 10:13:32 PM
 	 * @author Volkan Tokmak
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 */
 	public Double getAmount()
 	{
@@ -92,7 +92,7 @@ public final class Money
 	 *
 	 * <b>created at</b> Apr 21, 2015 10:13:32 PM
 	 * @author Volkan Tokmak
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 */
 	public void setAmount(Double argAmount)
 	{
@@ -105,7 +105,7 @@ public final class Money
 	 *
 	 * <b>created at</b> Apr 21, 2015 10:13:32 PM
 	 * @author Volkan Tokmak
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 */
 	public CurrencyEnum getCurrency()
 	{
@@ -119,7 +119,7 @@ public final class Money
 	 *
 	 * <b>created at</b> Apr 21, 2015 10:13:32 PM
 	 * @author Volkan Tokmak
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 */
 	public void setCurrency(CurrencyEnum argCurrency)
 	{
@@ -132,7 +132,7 @@ public final class Money
 	 * @return
 	 *
 	 * <b>created at</b> Apr 21, 2015 10:24:55 PM
-	 * @since 2.00.00.0
+	 * @since 1.00.0
 	 * @author Volkan Tokmak
 	 */
 	@Override
